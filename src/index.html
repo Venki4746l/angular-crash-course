@@ -1,13 +1,1486 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>AngularCrashCourse</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <head>
+    <meta charset="utf-8"/>
+    <title>AngularCrashCourse</title>
+    <base href="/"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
 </head>
-<body>
-  <app-root></app-root>
+  <body>
+    <app-root></app-root>
+    <noscript>Please enable JavaScript to continue using this application.</noscript>
 </body>
 </html>
+
+<!--Course content
+Play
+1. Course Introduction
+1min
+Play
+2. What is Angular?
+2min
+Start
+3. Join our Online Learning Community
+1min
+Play
+4. Angular vs Angular 2 vs Latest Angular Version
+3min
+Start
+5. CLI Deep Dive & Troubleshooting
+1min
+Play
+6. Project Setup and First App
+9min
+Play
+7. Editing the First App
+10min
+Play
+8. The Course Structure
+4min
+Play
+9. How to get the Most out of the Course
+2min
+Play
+10. What is TypeScript?
+2min
+Start
+11. Optional: TypeScript Quick Introduction
+1min
+Play
+12. A Basic Project Setup using Bootstrap for Styling
+4min
+Start
+13. About the Course Code / Code Snapshots
+1min
+Play
+14. Module Introduction
+1min
+Play
+15. How an Angular App gets Loaded and Started
+7min
+Play
+16. Components are Important!
+3min
+Play
+17. Creating a New Component
+7min
+Play
+18. Understanding the Role of AppModule and Component Declaration
+5min
+Play
+19. Using Custom Components
+1min
+Play
+20. Creating Components with the CLI & Nesting Components
+4min
+Play
+21. Working with Component Templates
+3min
+Play
+22. Working with Component Styles
+4min
+Play
+23. Fully Understanding the Component Selector
+4min
+Start
+Assignment 1: Practicing Components
+Play
+24. [OPTIONAL] Assignment Solution
+7min
+Play
+25. What is Databinding?
+3min
+Play
+26. String Interpolation
+5min
+Play
+27. Property Binding
+7min
+Play
+28. Property Binding vs String Interpolation
+3min
+Play
+29. Event Binding
+4min
+Start
+30. Bindable Properties and Events
+1min
+Play
+31. Passing and Using Data with Event Binding
+5min
+Start
+32. Important: FormsModule is Required for Two-Way-Binding!
+1min
+Play
+33. Two-Way-Databinding
+3min
+Play
+34. Combining all Forms of Databinding
+2min
+Start
+Assignment 2: Practicing Databinding
+Play
+35. [OPTIONAL] Assignment Solution
+5min
+Play
+36. Understanding Directives
+2min
+Play
+37. Using ngIf to Output Data Conditionally
+4min
+Play
+38. Enhancing ngIf with an Else Condition
+3min
+Play
+39. Styling Elements Dynamically with ngStyle
+5min
+Play
+40. Applying CSS Classes Dynamically with ngClass
+3min
+Play
+41. Outputting Lists with ngFor
+4min
+Start
+Assignment 3: Practicing Directives
+Play
+42. [OPTIONAL] Assignment Solution
+7min
+Play
+43. Getting the Index when using ngFor
+3min
+Play
+44. Project Introduction
+1min
+Play
+45. Planning the App
+6min
+Start
+46. Creating a New App Correctly
+1min
+Play
+47. Setting up the Application
+5min
+Play
+48. Creating the Components
+10min
+Play
+49. Using the Components
+3min
+Play
+50. Adding a Navigation Bar
+5min
+Start
+51. Alternative Non-Collapsable Navigation Bar
+1min
+Play
+52. Creating a "Recipe" Model
+5min
+Play
+53. Adding Content to the Recipes Components
+8min
+Play
+54. Outputting a List of Recipes with ngFor
+5min
+Play
+55. Displaying Recipe Details
+6min
+Play
+56. Working on the ShoppingListComponent
+2min
+Play
+57. Creating an "Ingredient" Model
+3min
+Play
+58. Creating and Outputting the Shopping List
+2min
+Play
+59. Adding a Shopping List Edit Section
+3min
+Play
+60. Wrap Up & Next Steps
+1min
+Play
+61. Understanding Angular Error Messages
+5min
+Play
+62. Debugging Code in the Browser Using Sourcemaps
+6min
+Play
+63. Module Introduction
+1min
+Play
+64. Splitting Apps into Components
+6min
+Play
+65. Property & Event Binding Overview
+2min
+Play
+66. Binding to Custom Properties
+6min
+Play
+67. Assigning an Alias to Custom Properties
+2min
+Play
+68. Binding to Custom Events
+9min
+Play
+69. Assigning an Alias to Custom Events
+1min
+Play
+70. Custom Property and Event Binding Summary
+2min
+Play
+71. Understanding View Encapsulation
+5min
+Play
+72. More on View Encapsulation
+3min
+Play
+73. Using Local References in Templates
+5min
+Start
+74. @ViewChild() in Angular 8+
+1min
+Play
+75. Getting Access to the Template & DOM with @ViewChild
+5min
+Play
+76. Projecting Content into Components with ng-content
+3min
+Play
+77. Understanding the Component Lifecycle
+5min
+Play
+78. Seeing Lifecycle Hooks in Action
+12min
+Play
+79. Lifecycle Hooks and Template Access
+3min
+Start
+80. @ContentChild() in Angular 8+
+1min
+Play
+81. Getting Access to ng-content with @ContentChild
+3min
+Play
+82. Wrap Up
+1min
+Start
+Assignment 4: Practicing Property & Event Binding and View Encapsulation
+Play
+83. [OPTIONAL] Assignment Solution
+12min
+Play
+84. Introduction
+1min
+Play
+85. Adding Navigation with Event Binding and ngIf
+8min
+Play
+86. Passing Recipe Data with Property Binding
+5min
+Play
+87. Passing Data with Event and Property Binding (Combined)
+11min
+Start
+88. Make sure you have FormsModule added!
+1min
+Play
+89. Allowing the User to Add Ingredients to the Shopping List
+7min
+Play
+90. Module Introduction
+1min
+Play
+91. ngFor and ngIf Recap
+4min
+Play
+92. ngClass and ngStyle Recap
+3min
+Play
+93. Creating a Basic Attribute Directive
+7min
+Play
+94. Using the Renderer to build a Better Attribute Directive
+7min
+Start
+95. More about the Renderer
+1min
+Play
+96. Using HostListener to Listen to Host Events
+3min
+Play
+97. Using HostBinding to Bind to Host Properties
+3min
+Play
+98. Binding to Directive Properties
+7min
+Play
+99. What Happens behind the Scenes on Structural Directives
+3min
+Play
+100. Building a Structural Directive
+6min
+Play
+101. Understanding ngSwitch
+3min
+Play
+102. Building and Using a Dropdown Directive
+6min
+Start
+103. Closing the Dropdown From Anywhere
+1min
+Play
+104. Module Introduction
+2min
+Play
+105. Why would you Need Services?
+2min
+Play
+106. Creating a Logging Service
+4min
+Play
+107. Injecting the Logging Service into Components
+6min
+Start
+108. Alternative Injection Syntax
+1min
+Play
+109. Creating a Data Service
+7min
+Play
+110. Understanding the Hierarchical Injector
+3min
+Play
+111. How many Instances of Service Should It Be?
+2min
+Play
+112. Injecting Services into Services
+5min
+Play
+113. Using Services for Cross-Component Communication
+4min
+Start
+114. A Different Way Of Injecting Services
+1min
+Start
+Assignment 5: Practicing Services
+Play
+115. [OPTIONAL] Assignment Solution
+10min
+Play
+116. Introduction
+1min
+Play
+117. Setting up the Services
+1min
+Play
+118. Managing Recipes in a Recipe Service
+4min
+Play
+119. Using a Service for Cross-Component Communication
+5min
+Play
+120. Adding the Shopping List Service
+5min
+Play
+121. Using Services for Pushing Data from A to B
+3min
+Play
+122. Adding Ingredients to Recipes
+4min
+Play
+123. Passing Ingredients from Recipes to the Shopping List (via a Service)
+7min
+Play
+124. Module Introduction
+1min
+Play
+125. Why do we need a Router?
+1min
+Start
+126. Understanding the Example Project
+1min
+Play
+127. Setting up and Loading Routes
+8min
+Play
+128. Navigating with Router Links
+5min
+Play
+129. Understanding Navigation Paths
+5min
+Play
+130. Styling Active Router Links
+5min
+Play
+131. Navigating Programmatically
+3min
+Play
+132. Using Relative Paths in Programmatic Navigation
+5min
+Play
+133. Passing Parameters to Routes
+3min
+Play
+134. Fetching Route Parameters
+4min
+Play
+135. Fetching Route Parameters Reactively
+7min
+Play
+136. An Important Note about Route Observables
+3min
+Play
+137. Passing Query Parameters and Fragments
+6min
+Play
+138. Retrieving Query Parameters and Fragments
+3min
+Play
+139. Practicing and some Common Gotchas
+6min
+Play
+140. Setting up Child (Nested) Routes
+4min
+Play
+141. Using Query Parameters - Practice
+6min
+Play
+142. Configuring the Handling of Query Parameters
+2min
+Play
+143. Redirecting and Wildcard Routes
+5min
+Start
+144. Important: Redirection Path Matching
+1min
+Play
+145. Outsourcing the Route Configuration
+5min
+Play
+146. An Introduction to Guards
+2min
+Play
+147. Protecting Routes with canActivate
+9min
+Play
+148. Protecting Child (Nested) Routes with canActivateChild
+3min
+Play
+149. Using a Fake Auth Service
+2min
+Play
+150. Controlling Navigation with canDeactivate
+12min
+Play
+151. Passing Static Data to a Route
+6min
+Play
+152. Resolving Dynamic Data with the resolve Guard
+10min
+Play
+153. Understanding Location Strategies
+5min
+Play
+154. Wrap Up
+1min
+Play
+170. Module Introduction
+4min
+Start
+171. Install RxJS
+1min
+Play
+172. Analyzing Angular Observables
+2min
+Play
+173. Getting Closer to the Core of Observables
+7min
+Play
+174. Building a Custom Observable
+5min
+Play
+175. Errors & Completion
+7min
+Play
+176. Observables & You!
+2min
+Play
+177. Understanding Operators
+9min
+Play
+178. Subjects
+8min
+Play
+179. Wrap Up
+1min
+Start
+180. Useful Resources & Links
+1min
+Play
+181. Improving the Reactive Service with Observables (Subjects)
+6min
+Start
+182. Changed the Subscription Name
+1min
+Play
+183. Module Introduction
+1min
+Play
+184. Why do we Need Angular's Help?
+2min
+Play
+185. Template-Driven (TD) vs Reactive Approach
+1min
+Play
+186. An Example Form
+2min
+Play
+187. TD: Creating the Form and Registering the Controls
+6min
+Play
+188. TD: Submitting and Using the Form
+6min
+Play
+189. TD: Understanding Form State
+2min
+Play
+190. TD: Accessing the Form with @ViewChild
+3min
+Play
+191. TD: Adding Validation to check User Input
+4min
+Start
+192. Built-in Validators & Using HTML5 Validation
+1min
+Play
+193. TD: Using the Form State
+4min
+Play
+194. TD: Outputting Validation Error Messages
+2min
+Play
+195. TD: Set Default Values with ngModel Property Binding
+2min
+Play
+196. TD: Using ngModel with Two-Way-Binding
+3min
+Play
+197. TD: Grouping Form Controls
+4min
+Play
+198. TD: Handling Radio Buttons
+3min
+Play
+199. TD: Setting and Patching Form Values
+5min
+Play
+200. TD: Using Form Data
+5min
+Play
+201. TD: Resetting Forms
+2min
+Start
+Assignment 6: Practicing Template-Driven Forms
+Play
+202. Introduction to the Reactive Approach
+1min
+Play
+203. Reactive: Setup
+2min
+Play
+204. Reactive: Creating a Form in Code
+4min
+Play
+205. Reactive: Syncing HTML and Form
+4min
+Play
+206. Reactive: Submitting the Form
+2min
+Play
+207. Reactive: Adding Validation
+3min
+Play
+208. Reactive: Getting Access to Controls
+4min
+Play
+209. Reactive: Grouping Controls
+4min
+Start
+210. Fixing a Bug
+1min
+Play
+211. Reactive: Arrays of Form Controls (FormArray)
+8min
+Play
+212. Reactive: Creating Custom Validators
+6min
+Play
+213. Reactive: Using Error Codes
+3min
+Play
+214. Reactive: Creating a Custom Async Validator
+5min
+Play
+215. Reactive: Reacting to Status or Value Changes
+2min
+Play
+216. Reactive: Setting and Patching Values
+2min
+Start
+Assignment 7: Practicing Reactive Forms
+Play
+217. [OPTIONAL] Assignment Solution
+14min
+Play
+218. Introduction
+1min
+Play
+219. TD: Adding the Shopping List Form
+4min
+Play
+220. Adding Validation to the Form
+2min
+Play
+221. Allowing the Selection of Items in the List
+4min
+Play
+222. Loading the Shopping List Items into the Form
+3min
+Play
+223. Updating existing Items
+3min
+Play
+224. Resetting the Form
+3min
+Play
+225. Allowing the the User to Clear (Cancel) the Form
+1min
+Play
+226. Allowing the Deletion of Shopping List Items
+3min
+Play
+227. Creating the Template for the (Reactive) Recipe Edit Form
+5min
+Play
+228. Creating the Form For Editing Recipes
+5min
+Play
+229. Syncing HTML with the Form
+4min
+Start
+230. Fixing a Bug
+1min
+Play
+231. Adding Ingredient Controls to a Form Array
+6min
+Play
+232. Adding new Ingredient Controls
+4min
+Play
+233. Validating User Input
+5min
+Play
+234. Submitting the Recipe Edit Form
+8min
+Play
+235. Adding a Delete and Clear (Cancel) Functionality
+5min
+Play
+236. Redirecting the User (after Deleting a Recipe)
+2min
+Play
+237. Adding an Image Preview
+2min
+Play
+238. Providing the Recipe Service Correctly
+2min
+Play
+239. Deleting Ingredients and Some Finishing Touches
+4min
+Start
+240. Deleting all Items in a FormArray
+1min
+Play
+241. Introduction & Why Pipes are Useful
+2min
+Play
+242. Using Pipes
+3min
+Play
+243. Parametrizing Pipes
+2min
+Play
+244. Where to learn more about Pipes
+2min
+Play
+245. Chaining Multiple Pipes
+2min
+Play
+246. Creating a Custom Pipe
+7min
+Play
+247. Parametrizing a Custom Pipe
+3min
+Play
+248. Example: Creating a Filter Pipe
+7min
+Play
+249. Pure and Impure Pipes (or: How to "fix" the Filter Pipe)
+5min
+Play
+250. Understanding the "async" Pipe
+4min
+Start
+Assignment 8: Practicing Pipes
+Play
+251. A New IDE
+1min
+Play
+252. Module Introduction
+1min
+Play
+253. How Does Angular Interact With Backends?
+3min
+Play
+254. The Anatomy of a Http Request
+2min
+Play
+255. Backend (Firebase) Setup
+3min
+Play
+256. Sending a POST Request
+10min
+Play
+257. GETting Data
+3min
+Play
+258. Using RxJS Operators to Transform Response Data
+4min
+Play
+259. Using Types with the HttpClient
+5min
+Play
+260. Outputting Posts
+2min
+Play
+261. Showing a Loading Indicator
+2min
+Play
+262. Using a Service for Http Requests
+7min
+Play
+263. Services & Components Working Together
+3min
+Play
+264. Sending a DELETE Request
+3min
+Play
+265. Handling Errors
+7min
+Play
+266. Using Subjects for Error Handling
+3min
+Play
+267. Using the catchError Operator
+2min
+Play
+268. Error Handling & UX
+2min
+Play
+269. Setting Headers
+3min
+Play
+270. Adding Query Params
+4min
+Play
+271. Observing Different Types of Responses
+8min
+Play
+272. Changing the Response Body Type
+3min
+Play
+273. Introducing Interceptors
+7min
+Play
+274. Manipulating Request Objects
+3min
+Play
+275. Response Interceptors
+3min
+Play
+276. Multiple Interceptors
+5min
+Play
+277. Wrap Up
+2min
+Start
+278. Useful Resources & Links
+1min
+Play
+279. Module Introduction
+1min
+Play
+280. Backend (Firebase) Setup
+2min
+Play
+281. Setting Up the DataStorage Service
+6min
+Play
+282. Storing Recipes
+7min
+Play
+283. Fetching Recipes
+6min
+Play
+284. Transforming Response Data
+4min
+Play
+285. Resolving Data Before Loading
+8min
+Play
+286. Fixing a Bug with the Resolver
+2min
+Play
+287. Module Introduction
+1min
+Play
+288. How Authentication Works
+5min
+Play
+289. Adding the Auth Page
+7min
+Play
+290. Switching Between Auth Modes
+4min
+Play
+291. Handling Form Input
+4min
+Play
+292. Preparing the Backend
+3min
+Start
+293. Make sure you got Recipes in your backend!
+1min
+Play
+294. Preparing the Signup Request
+8min
+Play
+295. Sending the Signup Request
+5min
+Play
+296. Adding a Loading Spinner & Error Handling Logic
+7min
+Play
+297. Improving Error Handling
+6min
+Play
+298. Sending Login Requests
+6min
+Play
+299. Login Error Handling
+4min
+Play
+300. Creating & Storing the User Data
+10min
+Play
+301. Reflecting the Auth State in the UI
+10min
+Play
+302. Adding the Token to Outgoing Requests
+10min
+Play
+303. Attaching the Token with an Interceptor
+9min
+Play
+304. Adding Logout
+3min
+Play
+305. Adding Auto-Login
+10min
+Play
+306. Adding Auto-Logout
+8min
+Play
+307. Adding an Auth Guard
+11min
+Play
+308. Wrap Up
+2min
+Start
+309. Useful Resources & Links
+1min
+Play
+310. Module Introduction
+1min
+Play
+311. Adding an Alert Modal Component
+8min
+Play
+312. Understanding the Different Approaches
+2min
+Play
+313. Using ngIf
+3min
+Play
+314. Preparing Programmatic Creation
+8min
+Play
+315. Creating a Component Programmatically
+5min
+Start
+316. About entryComponents
+1min
+Play
+317. Understanding entryComponents
+5min
+Play
+318. Data Binding & Event Binding
+5min
+Play
+319. Wrap Up
+1min
+Start
+320. Useful Resources & Links
+1min
+Play
+321. Module Introduction
+1min
+Play
+322. What are Modules?
+2min
+Play
+323. Analyzing the AppModule
+6min
+Play
+324. Getting Started with Feature Modules
+9min
+Play
+325. Splitting Modules Correctly
+4min
+Play
+326. Adding Routes to Feature Modules
+5min
+Play
+327. Component Declarations
+2min
+Play
+328. The ShoppingList Feature Module
+4min
+Play
+329. Understanding Shared Modules
+8min
+Play
+330. Understanding the Core Module
+6min
+Play
+331. Adding an Auth Feature Module
+4min
+Play
+332. Understanding Lazy Loading
+3min
+Play
+333. Implementing Lazy Loading
+12min
+Play
+334. More Lazy Loading
+3min
+Play
+335. Preloading Lazy-Loaded Code
+4min
+Play
+336. Modules & Services
+6min
+Play
+337. Loading Services Differently
+8min
+Start
+338. Useful Resources & Links
+1min
+Play
+339. Module Introduction
+1min
+Play
+340. Deployment Preparation & Steps
+3min
+Play
+341. Using Environment Variables
+5min
+Start
+342. Deploying Angular Applications
+1min
+Play
+343. Deployment Example: Firebase Hosting
+9min
+Start
+344. Server Routing vs Browser Routing
+1min
+Play
+345. Module Introduction
+1min
+Play
+346. Starting Setup & Why We Want Standalone Components
+5min
+Play
+347. Building a First Standalone Component
+10min
+Start
+348. Standalone Components Are Now Stable
+1min
+Play
+349. Standalone Directives & Connecting Building Blocks
+2min
+Play
+350. Migrating Another Component
+2min
+Play
+351. A Standalone Root Component
+4min
+Play
+352. Services & Standalone Components
+4min
+Play
+353. Routing with Standalone Components
+7min
+Play
+354. Lazy Loading
+8min
+Play
+355. Summary
+2min
+Play
+356. Module Introduction
+1min
+Play
+357. Signals: What & Why?
+6min
+Play
+358. Creating a New Signal
+3min
+Play
+359. Updating a Signal Value
+3min
+Play
+360. Reading & Outputting a Signal Value
+2min
+Play
+361. Signal Updating: set(), update() & mutate()
+6min
+Play
+362. Important: Signals are NOT Finished Yet!
+1min
+Start
+363. Signals: What's To Come?
+1min
+Play
+364. Computed Values & Effects
+4min
+Play
+365. Module Summary
+1min
+Play
+366. Module Introduction
+1min
+Play
+367. What Is NgRx?
+2min
+Play
+368. Understanding NgRx & Its Building Blocks
+4min
+Play
+369. Project Setup & Installing NgRx
+5min
+Play
+370. Adding a First Reducer & Store Setup
+9min
+Play
+371. An Alternative Way Of Creating Reducers
+4min
+Play
+372. Reading Data From The Store
+10min
+Play
+373. Introducing Actions & State Changing Reducers
+8min
+Play
+374. Dispatching Actions
+4min
+Play
+375. Attaching Data To Actions
+4min
+Play
+376. Handling Actions Without createReducer
+6min
+Play
+377. An Alternative Way Of Defining Actions
+10min
+Play
+378. Time To Practice: A Second Action
+5min
+Play
+379. Exploring Selectors
+8min
+Play
+380. Introducing Effects
+3min
+Play
+381. Installing the Effects Package
+2min
+Play
+382. Defining a First Effect
+9min
+Play
+383. The Old @Effect Decorator & Registering Effects
+4min
+Play
+384. Using Store Data In Effects
+3min
+Play
+385. Adding a Second Effect
+10min
+Play
+386. Summary
+3min
+Start
+387. About The Remaining Section
+1min
+Start
+388. Recipe Project Starting Code
+1min
+Play
+389. Getting Started with Reducers
+7min
+Play
+390. Adding Logic to the Reducer
+6min
+Play
+391. Understanding & Adding Actions
+6min
+Play
+392. Setting Up the NgRx Store
+5min
+Play
+393. Selecting State
+9min
+Play
+394. Dispatching Actions
+7min
+Play
+395. Multiple Actions
+10min
+Play
+396. Preparing Update & Delete Actions
+3min
+Play
+397. Updating & Deleting Ingredients
+11min
+Play
+398. Expanding the State
+9min
+Play
+399. Managing More State via NgRx
+10min
+Play
+400. Removing Redundant Component State Management
+4min
+Play
+401. First Summary & Clean Up
+5min
+Play
+402. One Root State
+12min
+Play
+403. Setting Up Auth Reducer & Actions
+8min
+Play
+404. Dispatching Auth Actions
+6min
+Play
+405. Auth Finished (For Now...)
+7min
+Play
+406. And Important Note on Actions
+6min
+Play
+407. Exploring NgRx Effects
+4min
+Play
+408. Defining the First Effect
+5min
+Start
+409. Important: Avoid @Effect
+1min
+Play
+410. Effects & Error Handling
+9min
+Play
+411. Login via NgRx Effects
+9min
+Play
+412. Managing UI State in NgRx
+8min
+Play
+413. Finishing the Login Effect
+7min
+Play
+414. Preparing Other Auth Actions
+4min
+Play
+415. Adding Signup
+6min
+Play
+416. Further Auth Effects
+6min
+Play
+417. Adding Auto-Login with NgRx
+8min
+Play
+418. Adding Auto-Logout
+7min
+Play
+419. Finishing the Auth Effects
+2min
+Play
+420. Using the Store Devtools
+6min
+Play
+421. The Router Store
+2min
+Play
+422. Getting Started with NgRx for Recipes
+11min
+Play
+423. Fetching Recipe Detail Data
+9min
+Play
+424. Fetching Recipes & Using the Resolver
+12min
+Play
+425. Fixing the Auth Redirect
+2min
+Play
+426. Update, Delete and Add Recipes
+15min
+Play
+427. Storing Recipes via Effects
+6min
+Play
+428. Cleanup Work
+2min
+Play
+429. Wrap Up
+2min
+Start
+430. Alternative NgRx Syntax
+1min
+Start
+431. Useful Resources & Links
+1min
+Play
+432. Module Introduction
+1min
+Play
+433. Angular Universal - What & Why?
+8min
+Play
+434. Converting the App to a Universal App
+3min
+Play
+435. Analyzing & Running Server-side Code
+5min
+Play
+436. A Closer Look At The Server-side Code
+4min
+Play
+437. Integrating a REST API
+3min
+Play
+438. Some Notes About Deploying Angular Universal Apps
+5min
+Start
+439. Angular Universal Gotchas
+1min
+Start
+440. Making Animations Work with Angular 4+
+1min
+Play
+441. Introduction
+1min
+Play
+442. Setting up the Starting Project
+1min
+Play
+443. Animations Triggers and State
+7min
+Play
+444. Switching between States
+2min
+Play
+445. Transitions
+2min
+Play
+446. Advanced Transitions
+5min
+Play
+447. Transition Phases
+4min
+Play
+448. The "void" State
+6min
+Play
+449. Using Keyframes for Animations
+6min
+Play
+450. Grouping Transitions
+2min
+Play
+451. Using Animation Callbacks
+3min
+Play
+452. Module Introduction
+2min
+Play
+453. Adding Service Workers
+13min
+Play
+454. Caching Assets for Offline Use
+5min
+Play
+455. Caching Dynamic Assets & URLs
+7min
+Start
+456. Further Links & Resources
+1min
+Start
+457. About this Section
+1min
+Play
+458. Introduction
+1min
+Play
+459. Why Unit Tests?
+2min
+Play
+460. Analyzing the Testing Setup (as created by the CLI)
+8min
+Play
+461. Running Tests (with the CLI)
+2min
+Play
+462. Adding a Component and some fitting Tests
+6min
+Play
+463. Testing Dependencies: Components and Services
+7min
+Play
+464. Simulating Async Tasks
+10min
+Play
+465. Using "fakeAsync" and "tick"
+2min
+Play
+466. Isolated vs Non-Isolated Tests
+6min
+Start
+467. Further Resources & Where to Go Next
+1min
+Play
+468. Module Introduction
+2min
+Play
+469. A Closer Look at "ng new"
+5min
+Play
+470. IDE & Project Setup
+3min
+Play
+471. Understanding the Config Files
+9min
+Play
+472. Important CLI Commands
+5min
+Play
+473. The "angular.json" File - A Closer Look
+11min
+Play
+474. Angular Schematics - An Introduction
+2min
+Play
+475. The "ng add" Command
+5min
+Play
+476. Using Custom "ng generate" Schematics
+3min
+Play
+477. Smooth Updating of Projects with "ng update"
+2min
+Play
+478. Simplified Deployment with "ng deploy"
+6min
+Play
+479. Understanding "Differential Loading"
+5min
+Play
+480. Managing Multiple Projects in One Folder
+5min
+Play
+481. Angular Libraries - An Introduction
+3min
+Play
+482. Wrap Up
+1min
+Play
+483. A First Look At Angular Elements
+16min
+Play
+484. Thanks for being part of the course!
+1min
+Start
+485. Bonus: More Content!
+1min
+Play
+486. Module Introduction
+1min
+Play
+487. What & Why?
+7min
+Play
+488. Installing & Using TypeScript
+6min
+Play
+489. Base Types & Primitives
+4min
+Play
+490. Array & Object Types
+6min
+Play
+491. Type Inference
+3min
+Play
+492. Working with Union Types
+3min
+Play
+493. Assigning Type Aliases
+3min
+Play
+494. Diving into Functions & Function Types
+5min
+Play
+495. Understanding Generics
+7min
+Play
+496. Classes & TypeScript
+8min
+Play
+497. Working with Interfaces
+6min
+Play
+498. Configuring the TypeScript Compiler
+2min
+Start
+499. Module Resources
+1min -->

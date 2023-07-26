@@ -1,0 +1,23 @@
+<div>
+  <input type="text" [(ngModel)]="EnteredText" />
+  <button
+    *ngIf="!editStauts; else update"
+    
+    class="btn btn-primary"
+    (click)="addTodo()">
+    Add
+  </button>
+  <ng-template #update class="d-flex gap-2">
+    <button (click)="updateTodos()" class="btn btn-info m-2">Update</button>
+    <button (click)="cancelUpdate()" class="btn btn-dark m-2">Cancel</button>
+  </ng-template>
+</div>
+<div>
+  <h5>todo list</h5>
+  <div class="d-flex gap-2" *ngFor="let todo of todos">
+    <input type="checkbox" />
+    {{ todo.title }}
+    <button (click)="delete(todo.id)" class="btn btn-danger">Deleted</button>
+    <button (click)="editTodo(todo)">Edit</button>
+  </div>
+</div>

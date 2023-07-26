@@ -1,0 +1,36 @@
+<div>
+  <form class="m-2 p-2" (ngSubmit)="onSubmit(myTodo)" #myTodo="ngForm">
+    <input type="text" placeholder="Enter Todo" name="todo" ngModel required />
+
+    <button
+      *ngIf="!editStatus"
+      [disabled]="!myTodo.valid"
+      class="btn btn-primary"
+      type="submit"
+    >
+      Add
+    </button>
+    <div class="d-flex gap-3 m-3" *ngIf="editStatus">
+      <button class="btn btn-primary" type="submit">update</button>
+      <button class="btn btn-primary" (onclick)="cancleUpdate()">cancel</button>
+    </div>
+  </form>
+</div>
+
+<h1>Todo List</h1>
+<ul>
+  <li *ngFor="let todo of todos">
+    <input
+      type="checkbox"
+      [checked]="todo.completed"
+      (change)="markCompleted(todo.id)"
+    />
+    {{ todo.title }}
+    <button class="btn btn-danger m-2" (click)="deleteTodo(todo.id)">
+      Delete
+    </button>
+    <button class="btn btn-info m-2" (click)="updateTodo(todo.id, myTodo)">
+      Edit
+    </button>
+  </li>
+</ul>
